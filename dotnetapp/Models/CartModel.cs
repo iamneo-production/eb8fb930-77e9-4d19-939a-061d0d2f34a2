@@ -17,9 +17,7 @@ namespace dotnetapp.Models
         public int Price { get; set; }
 
         //-------------------------------------------------------------
-        [ForeignKey(nameof(UserModel))]
-        public string UserId { get; set; } //FK
-         public virtual UserModel User { get; set; }
+       
         //------------------------------------------------------------
 
         

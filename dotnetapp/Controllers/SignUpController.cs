@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using System;
+using System.Text;
 
 namespace dotnetapp.Controllers
 {
@@ -22,9 +23,10 @@ namespace dotnetapp.Controllers
         [Route("SignUp")]
         public async Task<ActionResult<ResponseModel>> SaveUser([FromBody] UserModel user)
         {
+            ResponseModel responseModel = new ResponseModel();
             try
             {
-                ResponseModel responseModel = new ResponseModel();
+                
                 if (user != null)
                 {
                     var res = signUpCore.RegisterUser(user);
@@ -39,8 +41,11 @@ namespace dotnetapp.Controllers
             }
             catch (Exception)
             {
+                    responseModel.Status = false;
+                    responseModel.Message = "Failer";
+                    return Ok(responseModel);
 
-                throw;
+                
             }
         }
 

@@ -18,7 +18,6 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using dotnetapp.Core;
-
 using dotnetapp.Context;
 
 namespace dotnetapp
@@ -73,6 +72,7 @@ namespace dotnetapp
             }
 
             app.UseHttpsRedirection();
+            app.UseCors(mypolicy);
 
             app.UseRouting();
             app.UseAuthentication();
