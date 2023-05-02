@@ -20,10 +20,19 @@ namespace dotnetapp.Models
         public int quantity { get; set; }
 
         //---------------------------------------------------------------------
+<<<<<<< HEAD
 
      
       
         public ICollection<CartModel>? Carts { get; set; }
+=======
+        [System.Text.Json.Serialization.JsonIgnore]
+        public ICollection<CartModel>?Carts { get; set; }
+        //[System.Text.Json.Serialization.JsonIgnore]
+        //public virtual CartModel? Cart { get; set; } //fk
+        //[ForeignKey(nameof(CartModel))]
+        //public int? cartId { get; set; }//fk
+>>>>>>> Ecommerce-HariniVenkat07
 
         //----------------------------------------------------------------------
 

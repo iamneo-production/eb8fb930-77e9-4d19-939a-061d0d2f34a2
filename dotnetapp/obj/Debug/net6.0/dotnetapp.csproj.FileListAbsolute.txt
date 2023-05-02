@@ -23,7 +23,10 @@
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+<<<<<<< HEAD
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+=======
+>>>>>>> Ecommerce-HariniVenkat07
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll

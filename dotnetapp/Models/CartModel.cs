@@ -17,10 +17,23 @@ namespace dotnetapp.Models
         public int Price { get; set; }
 
         //-------------------------------------------------------------
+<<<<<<< HEAD
        
         //------------------------------------------------------------
 
         
+=======
+        [ForeignKey(nameof(UserModel))]
+        public string? UserId { get; set; } //FK
+         public virtual UserModel? User { get; set; }
+        //------------------------------------------------------------
+
+       //public ProductModel? Products { get; set; }
+        //[ForeignKey(nameof(ProductModel))]
+        //public int? productId { get; set; }
+        
+
+>>>>>>> Ecommerce-HariniVenkat07
         //-------------------------------------------------------------
 
         

@@ -428,6 +428,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.IdentityModel.Abstractions/6.30.0": {
         "type": "package",
         "compile": {
@@ -451,15 +452,29 @@
         },
         "compile": {
           "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+=======
+      "Microsoft.IdentityModel.JsonWebTokens/6.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "6.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+>>>>>>> Ecommerce-HariniVenkat07
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+=======
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+>>>>>>> Ecommerce-HariniVenkat07
             "related": ".xml"
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.IdentityModel.Logging/6.30.0": {
         "type": "package",
         "dependencies": {
@@ -467,11 +482,21 @@
         },
         "compile": {
           "lib/net6.0/Microsoft.IdentityModel.Logging.dll": {
+=======
+      "Microsoft.IdentityModel.Logging/6.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+>>>>>>> Ecommerce-HariniVenkat07
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net6.0/Microsoft.IdentityModel.Logging.dll": {
+=======
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+>>>>>>> Ecommerce-HariniVenkat07
             "related": ".xml"
           }
         }
@@ -510,6 +535,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.IdentityModel.Tokens/6.30.0": {
         "type": "package",
         "dependencies": {
@@ -519,11 +545,26 @@
         },
         "compile": {
           "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
+=======
+      "Microsoft.IdentityModel.Tokens/6.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.IdentityModel.Logging": "6.10.0",
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+>>>>>>> Ecommerce-HariniVenkat07
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
+=======
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+>>>>>>> Ecommerce-HariniVenkat07
             "related": ".xml"
           }
         }
@@ -537,6 +578,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.NETCore.Targets/1.1.0": {
         "type": "package",
         "compile": {
@@ -546,6 +588,8 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+=======
+>>>>>>> Ecommerce-HariniVenkat07
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -830,6 +874,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.IdentityModel.Tokens.Jwt/6.30.0": {
         "type": "package",
         "dependencies": {
@@ -838,10 +883,21 @@
         },
         "compile": {
           "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
+=======
+      "System.IdentityModel.Tokens.Jwt/6.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "6.10.0",
+          "Microsoft.IdentityModel.Tokens": "6.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+>>>>>>> Ecommerce-HariniVenkat07
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
           }
@@ -855,6 +911,9 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {
+=======
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+>>>>>>> Ecommerce-HariniVenkat07
             "related": ".xml"
           }
         }
@@ -996,6 +1055,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1009,6 +1069,8 @@
           }
         }
       },
+=======
+>>>>>>> Ecommerce-HariniVenkat07
       "System.Text.Encoding.CodePages/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -1031,6 +1093,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Text.Encodings.Web/4.7.2": {
         "type": "package",
         "compile": {
@@ -1057,6 +1120,8 @@
           }
         }
       },
+=======
+>>>>>>> Ecommerce-HariniVenkat07
       "System.Windows.Extensions/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -1718,6 +1783,7 @@
         "ref/xamarinmac20/Microsoft.Identity.Client.xml"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.IdentityModel.Abstractions/6.30.0": {
       "sha512": "vC19oUKs6bycdBqdA5fJAElrgsJ14enyQCONWd5SOmIj1GNomdfZe9sawtFBVjU9XGTUkpGTwIVMMkxcyKlN9w==",
       "type": "package",
@@ -1745,6 +1811,12 @@
       "sha512": "lX/ARxHCjYkFi8KT48NB7QVC+nuyRyvLD0n330MrV7uU4/DfMtwa3WXhho1iNU8A6NA4YFkiz/+sIkqgZ2Q+Gw==",
       "type": "package",
       "path": "microsoft.identitymodel.jsonwebtokens/6.30.0",
+=======
+    "Microsoft.IdentityModel.JsonWebTokens/6.10.0": {
+      "sha512": "0qjS31rN1MQTc46tAYbzmMTSRfdV5ndZxSjYxIGqKSidd4wpNJfNII/pdhU5Fx8olarQoKL9lqqYw4yNOIwT0Q==",
+      "type": "package",
+      "path": "microsoft.identitymodel.jsonwebtokens/6.10.0",
+>>>>>>> Ecommerce-HariniVenkat07
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1752,6 +1824,7 @@
         "lib/net45/Microsoft.IdentityModel.JsonWebTokens.xml",
         "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
+<<<<<<< HEAD
         "lib/net462/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net462/Microsoft.IdentityModel.JsonWebTokens.xml",
         "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
@@ -1768,6 +1841,20 @@
       "sha512": "QoMnSniPTXLLds1lCGMokaYiCaLZu31LTnWzcITWTjMZX6fHRUNNkQYHEJH+d8AxyAH52tR3DotfkJzZe2gkEA==",
       "type": "package",
       "path": "microsoft.identitymodel.logging/6.30.0",
+=======
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/6.10.0": {
+      "sha512": "zbcwV6esnNzhZZ/VP87dji6VrUBLB5rxnZBkDMqNYpyG+nrBnBsbm4PUYLCBMUflHCM9EMLDG0rLnqqT+l0ldA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/6.10.0",
+>>>>>>> Ecommerce-HariniVenkat07
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1775,6 +1862,7 @@
         "lib/net45/Microsoft.IdentityModel.Logging.xml",
         "lib/net461/Microsoft.IdentityModel.Logging.dll",
         "lib/net461/Microsoft.IdentityModel.Logging.xml",
+<<<<<<< HEAD
         "lib/net462/Microsoft.IdentityModel.Logging.dll",
         "lib/net462/Microsoft.IdentityModel.Logging.xml",
         "lib/net472/Microsoft.IdentityModel.Logging.dll",
@@ -1784,6 +1872,13 @@
         "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
         "microsoft.identitymodel.logging.6.30.0.nupkg.sha512",
+=======
+        "lib/net472/Microsoft.IdentityModel.Logging.dll",
+        "lib/net472/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+>>>>>>> Ecommerce-HariniVenkat07
         "microsoft.identitymodel.logging.nuspec"
       ]
     },
@@ -1825,10 +1920,17 @@
         "microsoft.identitymodel.protocols.openidconnect.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.IdentityModel.Tokens/6.30.0": {
       "sha512": "5sOI98r76qPYY4hOKslPCzKUVJecdlC5tUOdf6gK/81JFZHpBpkVfMWBV6XBx4l+zeEWTZIJ6cDd6Am6gi8pFg==",
       "type": "package",
       "path": "microsoft.identitymodel.tokens/6.30.0",
+=======
+    "Microsoft.IdentityModel.Tokens/6.10.0": {
+      "sha512": "qbf1NslutDB4oLrriYTJpy7oB1pbh2ej2lEHd2IPDQH9C74ysOdhU5wAC7KoXblldbo7YsNR2QYFOqQM/b0Rsg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/6.10.0",
+>>>>>>> Ecommerce-HariniVenkat07
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1836,6 +1938,7 @@
         "lib/net45/Microsoft.IdentityModel.Tokens.xml",
         "lib/net461/Microsoft.IdentityModel.Tokens.dll",
         "lib/net461/Microsoft.IdentityModel.Tokens.xml",
+<<<<<<< HEAD
         "lib/net462/Microsoft.IdentityModel.Tokens.dll",
         "lib/net462/Microsoft.IdentityModel.Tokens.xml",
         "lib/net472/Microsoft.IdentityModel.Tokens.dll",
@@ -1845,6 +1948,13 @@
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
         "microsoft.identitymodel.tokens.6.30.0.nupkg.sha512",
+=======
+        "lib/net472/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net472/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
+>>>>>>> Ecommerce-HariniVenkat07
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
@@ -1865,6 +1975,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.NETCore.Targets/1.1.0": {
       "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
@@ -1880,6 +1991,8 @@
         "runtime.json"
       ]
     },
+=======
+>>>>>>> Ecommerce-HariniVenkat07
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -2351,10 +2464,17 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "System.IdentityModel.Tokens.Jwt/6.30.0": {
       "sha512": "pa9cQqPoCA03v512SjikM0xNDVW9/jUaSxAEupqtngAKjp6exElng1E47iXE0ewRjk3xqHa0vJE3x19h1a29OQ==",
       "type": "package",
       "path": "system.identitymodel.tokens.jwt/6.30.0",
+=======
+    "System.IdentityModel.Tokens.Jwt/6.10.0": {
+      "sha512": "C+Q5ORsFycRkRuvy/Xd0Pv5xVpmWSAvQYZAGs7VQogmkqlLhvfZXTgBIlHqC3cxkstSoLJAYx6xZB7foQ2y5eg==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/6.10.0",
+>>>>>>> Ecommerce-HariniVenkat07
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2362,6 +2482,7 @@
         "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
+<<<<<<< HEAD
         "lib/net462/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net462/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
@@ -2466,6 +2587,16 @@
         "system.runtime.nuspec"
       ]
     },
+=======
+        "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
+        "system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
+>>>>>>> Ecommerce-HariniVenkat07
     "System.Runtime.Caching/4.7.0": {
       "sha512": "NdvNRjTPxYvIEhXQszT9L9vJhdQoX6AQ0AlhjTU+5NqFQVuacJTfhPVAvtGWNA2OJCqRiR/okBcZgMwI6MqcZg==",
       "type": "package",
@@ -2762,6 +2893,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
@@ -2830,6 +2962,8 @@
         "system.text.encoding.nuspec"
       ]
     },
+=======
+>>>>>>> Ecommerce-HariniVenkat07
     "System.Text.Encoding.CodePages/4.7.0": {
       "sha512": "aeu4FlaUTemuT1qOd1MyU4T516QR4Fy+9yDbwWMPHOHy7U8FD6SgTzdZFO7gHcfAPHtECqInbwklVvUK4RHcNg==",
       "type": "package",
@@ -2870,6 +3004,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Text.Encodings.Web/4.7.2": {
       "sha512": "iTUgB/WtrZ1sWZs84F2hwyQhiRH6QNjQv2DkwrH+WP6RoFga2Q1m3f9/Q7FG8cck8AdHitQkmkXSY8qylcDmuA==",
       "type": "package",
@@ -2916,6 +3051,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> Ecommerce-HariniVenkat07
     "System.Windows.Extensions/4.7.0": {
       "sha512": "CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "type": "package",
@@ -2948,8 +3085,12 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
       "Moq >= 4.18.4",
       "NUnit >= 3.13.0",
+<<<<<<< HEAD
       "Swashbuckle.AspNetCore >= 5.6.3",
       "System.IdentityModel.Tokens.Jwt >= 6.30.0"
+=======
+      "Swashbuckle.AspNetCore >= 5.6.3"
+>>>>>>> Ecommerce-HariniVenkat07
     ]
   },
   "packageFolders": {
@@ -3028,10 +3169,13 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
+<<<<<<< HEAD
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[6.30.0, )"
+=======
+>>>>>>> Ecommerce-HariniVenkat07
           }
         },
         "imports": [

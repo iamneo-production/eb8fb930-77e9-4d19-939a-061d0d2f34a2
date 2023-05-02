@@ -77,10 +77,13 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+<<<<<<< HEAD
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.30.0, )"
+=======
+>>>>>>> Ecommerce-HariniVenkat07
             }
           },
           "imports": [

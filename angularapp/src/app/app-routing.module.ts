@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+<<<<<<< HEAD
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { HomeComponent } from './home/home.component';
@@ -24,6 +25,10 @@ const routes: Routes = [ {
 {
   path:'adminHome',component: AdminhomeComponent
 }];
+=======
+
+const routes: Routes = [];
+>>>>>>> Ecommerce-HariniVenkat07
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

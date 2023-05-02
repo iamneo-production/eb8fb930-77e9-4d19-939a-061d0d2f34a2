@@ -3,6 +3,10 @@ using System.ComponentModel.DataAnnotations;
 using dotnetapp.Context;
 
 namespace dotnetapp.Models
+<<<<<<< HEAD
+=======
+
+>>>>>>> Ecommerce-HariniVenkat07
 {
     public class LoginModel
     {
