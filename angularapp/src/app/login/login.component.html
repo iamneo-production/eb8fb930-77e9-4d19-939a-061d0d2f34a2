@@ -1,0 +1,33 @@
+<div class="outer">
+<div class="container">
+    <div class="row">
+    <div class="col-md-4"></div>
+     <div class="offser-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+        <div class="panel border bg-white">
+            <div class="panel-heading">
+            <h3 class="pt-3 font-weight-bold">Login</h3>
+           </div>
+        <div class="panel-body p-3">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm)">
+    <div class="form-group ">
+    <label for="username">Email:</label>
+    <input [(ngModel)]="login.Email" name="email" type="email" class="form-control"  id="email" placeholder="Enter Email">
+    </div>
+    <div class="form-group ">
+    <label for="password">Password:</label>
+    <input [(ngModel)]="login.Password" name="password" type="password" class="form-control" id="password" placeholder="Enter password"><br>
+    </div>
+    <div class="login">
+    <button type="Login" class="btn btn-primary btn-block" routerLink="" id="login" >Login</button><br><br>
+    <p>New User?<a routerLink="/signup" id="signupLink">Sign Up</a></p>
+
+    </div>
+    </form>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+    </div>
+    </div>
+</div>
+
